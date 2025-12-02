@@ -25,7 +25,7 @@ _Branch:_ [`aibomgen-v2/main`](https://github.com/idlab-discover/AIBoMGen/tree/a
 ### AIBoMGen CRA
 
 **AIBoMGen CRA** — A lightweight, CRA-oriented AIBOM generator targeting systems that embed AI components (e.g., smart doorbells, IoT edge devices). It assumes trusted model developers.  
-_Branch:_ [`aibomgen-cra/main`](https://github.com/idlab-discover/AIBoMGen/tree/aibomgen-cra/main)
+_Branch:_ [`aibomgen-cra/go`](https://github.com/idlab-discover/AIBoMGen/tree/aibomgen-cra/go)
 
 ## Results and Experiments
 
