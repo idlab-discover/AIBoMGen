@@ -22,10 +22,12 @@ Legacy branches for different experimental versions are preserved under `aibomge
 **AIBoMGen v2** — Next-generation system for generating AIBOMs covering the **full AI lifecycle**, integrated with Kubeflow ML Metadata.  
 _Branch:_ [`aibomgen-v2/main`](https://github.com/idlab-discover/AIBoMGen/tree/aibomgen-v2/main)
 
-### AIBoMGen CRA
+### AIBoMGen CRA (Moved)
 
-**AIBoMGen CRA** — A lightweight, CRA-oriented AIBOM generator targeting systems that embed AI components (e.g., smart doorbells, IoT edge devices). It assumes trusted model developers.  
-_Branch:_ [`aibomgen-cra/go`](https://github.com/idlab-discover/AIBoMGen/tree/aibomgen-cra/go)
+The CRA-oriented AIBoMGen CLI has been moved to its own repository as it is now a separate Go module.
+It is maintained independently to avoid conflicts with the Python-based v1 and v2 projects.
+
+New repository: [AIBoMGen-cli](https://github.com/idlab-discover/AIBoMGen-cli)
 
 ## Results and Experiments
 
