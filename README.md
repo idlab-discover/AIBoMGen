@@ -1,4 +1,8 @@
-# CRA oriented version
+# CRA oriented version (Deprecated)
+
+Note: This Python implementation is no longer actively maintained. Development has moved to a Go-based CLI tool available in the separate repository: [AIBoMGen-cli](https://github.com/idlab-discover/AIBoMGen-cli).
+
+The move to Go was motivated by the lack of modelCard properties in the Python CycloneDX library and the desire for a standalone, lightweight, consumer-ready CLI tool.
 
 ## Summary
 
