@@ -1,7 +1,19 @@
-# AIBoMGen Project
+# AIBoMGen Research
 
 This repository aggregates research Proof of Concepts related to **AI Bills of Materials (AIBOMs)**.  
 It contains the stable AIBoMGen v1 platform and points to ongoing work for the next generation (v2).
+
+## AIBoMGen Ecosystem
+
+This repository is part of the broader AIBoMGen ecosystem for generating, analyzing, and validating AI/ML Bills of Materials (AIBOMs).
+
+| Repository | Purpose |
+|---|---|
+| [AIBoMGen CLI](https://github.com/idlab-discover/aibomgen-cli) | Command-line tool for generating AIBOMs from source code and ML artifacts |
+| [AIBoMGen CLI Action](https://github.com/CRA-tools/AIBoMGen-cli-action) | GitHub Action for automated AIBOM generation in CI/CD pipelines |
+| [AIBoMGen CLI Dashboard](https://github.com/CRA-tools/aibomgen-cli-dashboard) | Demo dashboard using [AIBoMGen CLI](https://github.com/idlab-discover/aibomgen-cli) |
+| [AIBoMGen](https://github.com/idlab-discover/AIBoMGen) | Proof of concept research repository |
+| [AIBoMGen Experiments](https://github.com/idlab-discover/AIBoMGen-experiments) | Experimental evaluations of [AIBoMGen](https://github.com/idlab-discover/AIBoMGen)|
 
 ## AIBoMGen v1
 
@@ -15,23 +27,14 @@ It includes:
 
 Legacy branches for different experimental versions are preserved under `aibomgen-v1/...`.
 
-## Experimental versions
-
-### AIBoMGen v2 (Current Work)
+## AIBoMGen v2 (WIP)
 
 **AIBoMGen v2** — Next-generation system for generating AIBOMs covering the **full AI lifecycle**, integrated with Kubeflow ML Metadata.  
 _Branch:_ [`aibomgen-v2/main`](https://github.com/idlab-discover/AIBoMGen/tree/aibomgen-v2/main)
 
-### AIBoMGen CRA (Moved)
-
-The CRA-oriented AIBoMGen CLI has been moved to its own repository as it is now a separate Go module.
-It is maintained independently to avoid conflicts with the Python-based v1 and v2 projects.
-
-New repository: [AIBoMGen-cli](https://github.com/idlab-discover/AIBoMGen-cli)
-
 ## Results and Experiments
 
-For results and experiments related to this project (v1), refer to the **[AIBoMGen Experiments repository](https://github.com/wiebe-vandendriessche/AIBoMGen-experiments)**.
+For results and experiments related to this project (v1), refer to the **[AIBoMGen Experiments](https://github.com/wiebe-vandendriessche/AIBoMGen-experiments)** repository.
 
 ## Contact
 
